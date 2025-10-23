@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalogo fecha="2025-10-04">
+
+<!DOCTYPE catalogo SYSTEM "proyectoDosEj1.dtd">
+
+<catalogo  fecha="2025-10-04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="proyectoDosEj1.xsd">
     <libros>
         <libro id="L001" categoria="novela" isbn="9780306406157" paginas="352">
             <titulo>La sombra del viento</titulo>
