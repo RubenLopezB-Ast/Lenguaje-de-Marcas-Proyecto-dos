@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plataforma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="proyecto2Ej2.xsd" fecha_publicacion="1983-09-22">
+<plataforma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="proyectoDosEj2.xsd" fecha_publicacion="1983-09-22">
     <cursos>
         <curso id="A001" codigo="EDS01">
             <titulo>Escnciador De Sidra (Asturiana)</titulo>
@@ -26,7 +26,7 @@
         </alumno>
     </alumnos>
     <matriculas>
-        <matricula id="M001" alumnoRef="E002" cursoRef="A001">
+        <matricula id="M001" alumnoRef="E001" cursoRef="A001">
             <fecha_alta>2025-01-02</fecha_alta>
             <estado>activa</estado>
         </matricula>
