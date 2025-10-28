@@ -1,6 +1,4 @@
-<!--<?xml version="1.0" encoding="UTF-8"?>
-
-<!DOCTYPE catalogo SYSTEM "proyectoDosEj1.dtd"> Si descomentamos las líneas 1 a 3  y quitamos de la 5 xmlns... validamos el dtd y tal como está el xsd-->
+<?xml version="1.0" encoding="UTF-8"?>
 
 <catalogo  fecha="2025-10-04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="proyectoDosEj1.xsd">
     <libros>

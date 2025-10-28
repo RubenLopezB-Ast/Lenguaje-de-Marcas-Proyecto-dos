@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "proyectoDosEj3.dtd">
+
+<library>
+    <book>
+        <title>Manuel Bartolomé de Cossío</title>
+        <author>Luís Alfonso Iglesias Huelga</author>
+        <year>2024</year>
+        <publisher>Atheneo</publisher>
+        <pages>345</pages>
+    </book>
+    <book>
+        <title>Rigodón el pequeño perdigón</title>
+        <author>Willy Foock</author>
+        <year>1983</year>
+        <publisher>Arcoiris</publisher>
+        <pages>318</pages>
+    </book>
+</library>

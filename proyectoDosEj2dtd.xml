@@ -1,7 +1,7 @@
-<!--<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE catalogo SYSTEM "proyectoDosEj2.dtd"> Si descomentamos las líneas 1 a 3  y quitamos de la 5 xmlns... validamos el dtd y tal como está el xsd-->
-<plataforma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="proyectoDosEj2.xsd" fecha_publicacion="1983-09-22">
+<!DOCTYPE plataforma SYSTEM "proyectoDosEj2.dtd"> 
+<plataforma fecha_publicacion="1983-09-22">
     <cursos>
         <curso id="A001" codigo="EDS01">
             <titulo>Escnciador De Sidra (Asturiana)</titulo>
@@ -21,7 +21,7 @@
         </curso>
     </cursos>
     <alumnos>
-        <alumno id="E001" nif= "27281948K">
+        <alumno id="E001" nif="27281948K">
             <nombre>Rodrigo Rodriguez</nombre>
             <email>r.rodriguez@sideas.org</email>
             <telefono>611000123</telefono>

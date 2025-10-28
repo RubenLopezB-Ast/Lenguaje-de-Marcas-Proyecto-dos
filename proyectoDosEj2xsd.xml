@@ -1,0 +1,40 @@
+<plataforma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="proyectoDosEj2.xsd" fecha_publicacion="1983-09-22">
+    <cursos>
+        <curso id="A001" codigo="EDS01">
+            <titulo>Escnciador De Sidra (Asturiana)</titulo>
+            <nivel>Avanzado</nivel>
+            <modalidad>Dual</modalidad>
+            <horas>1798</horas>
+            <modulos>
+                <modulo clave="HDS">
+                    <nombre>Historia De la Sidra</nombre>
+                    <horas>120</horas>
+                </modulo>
+                <modulo clave="TDE">
+                    <nombre>Técnica Del Escanciado</nombre>
+                    <horas>210</horas>
+                </modulo>
+            </modulos>
+        </curso>
+    </cursos>
+    <alumnos>
+        <alumno id="E001" nif= "27281948K">
+            <nombre>Rodrigo Rodriguez</nombre>
+            <email>r.rodriguez@sideas.org</email>
+            <telefono>611000123</telefono>
+        </alumno>
+    </alumnos>
+    <matriculas>
+        <matricula id="M001" alumnoRef="E001" cursoRef="A001">
+            <fecha_alta>2025-01-02</fecha_alta>
+            <estado>activa</estado>
+        </matricula>
+    </matriculas>
+    <evaluaciones>
+        <evaluacion id="X001" matriculaRef="M001">
+            <instrumento>Examen práctico</instrumento>
+            <convocatoria>Oridnaria</convocatoria>
+            <nota>9.3</nota>
+        </evaluacion>
+    </evaluaciones>
+</plataforma>
